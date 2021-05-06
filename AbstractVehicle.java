@@ -7,19 +7,12 @@ public abstract class AbstractVehicle implements Vehicle {
     private double price;
     private double discountPercent;
     private double score;
-    
-    /**/
-    private final  String[] vehicleParts = {"Motor","Far","Sasi","Fren Sistemi", "Camlar","Aksesuarlar"};
-	private final  int[] partsHealth = {100,100,100,100,100,100};
-    private finel int[] costRatioOfPiece = {0.4,0.02,0,1,0.05,0.06,0,07};
-    private final   int numberOfParts = 6;
-    /**/
-    
+
     private int damage;
     private int scoreCount;
 
     private boolean available;
-
+/*ased*/
     AbstractVehicle(String brand, String model, String color, String description, double cost) {
         this.brand = brand;
         this.model = model;
