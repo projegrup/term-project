@@ -141,7 +141,7 @@ public class Technician implements User {
 
 	/**
 	 * @param vehicle
-	 * @return Returns the cost of bill
+	 * @return Returns the cost of bill, if can not repair return -1
 	 */
 	public int maintenanceVehilcle(Vehicle vehicle){
 		/*aracın türüne göre periodik bakımının kontrolu.*/
